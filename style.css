@@ -1,0 +1,67 @@
+body {
+    background-color: lightblue;
+    text-align:center;
+}
+h1 {
+   color: red;
+   text-align:center;
+}
+
+p{
+  color:green;
+  font-size: 30x
+  text-align:center;
+}
+
+
+{  
+    margin:0;
+   backgroung:#000;
+   display:flex;
+   justify-content:center;
+   align-item:center;
+   hight:100vh;
+   font-family:arial,sans-serif;
+}
+
+.clock-box{
+       textalign:center;
+
+
+ background:rgba(255,255,255,0.08);
+           padding:30px;
+          border-radius:25px;
+         border:2px solid #00ffff;
+        box-shadow:0 0 20px #00ffff,
+                   0 0 40px #00ffff;
+}
+
+#clock{
+        font-size:60px;
+        color:black
+        font-weight:bold;
+        text-shadow:neon
+                0 0 10px #00ffff,
+                0 0 20px #00ffff,
+                0 0 40px #00ffff;
+}
+
+#date{
+       font-size:22px;
+       margin-top:10px;
+       color: yellow;
+              red;
+}
+      
+
+
+
+
+
+
+
+
+
+
+
+
