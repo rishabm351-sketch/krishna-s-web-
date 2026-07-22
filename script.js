@@ -23,15 +23,11 @@ setInterval(updateClock, 1000);
 updateClock();
 function welcomeMessage() {
    alert("Hii its my web Welcome to krishna website!");
-}
-
-
 
 let speech = new
 speechSynthesisUtterance("Hii its my web Welcome to krishna website");
   speech.lang = "en-US";
-
-speech.volume = 1;
+     speech.volume = 1;
 speech.rate = 1;
 speech.pitch = 1;
   speechSynthesis.speak(speech);
